@@ -7,4 +7,10 @@ public class Dog extends Animal {
   public void makeSound() {
     System.out.println("Bark!");
   }
+
+  @Override
+  public void eat(String foodType) {
+    System.out.println("eats "+foodType);
+  }
+
 }

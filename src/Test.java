@@ -8,5 +8,7 @@ public class Test {
     cat.makeSound();
     Dog dog = new Dog("Rollo");
     dog.makeSound();
+    cat.eat("cat food");
+    dog.eat("dog food");
   }
 }

@@ -7,4 +7,9 @@ public class Cat extends Animal {
   public void makeSound() {
     System.out.println("Meow!");
   }
+
+  @Override
+  public void eat(String foodType) {
+    System.out.println("eats "+foodType);
+  }
 }
