@@ -4,9 +4,11 @@ public class Test {
   }
 
   public void runProgram() {
-    Cat cat = new Cat("Pussycat");
+    Cat cat = new Cat("Kisser");
     cat.makeSound();
-    Dog dog = new Dog("Rollo");
+    Dog dog = new Dog("Ludvig");
     dog.makeSound();
+    cat.pet("Kisser");
+    dog.pet("Ludvig");
   }
 }
