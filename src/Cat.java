@@ -14,6 +14,11 @@ public class Cat extends Animal {
   }
 
   @Override
+  public void mood(String mood) {
+    System.out.println(mood);
+  }
+
+  @Override
   public void eat(String foodType) {
     System.out.println("eats " + foodType);
   }

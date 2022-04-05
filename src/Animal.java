@@ -14,6 +14,8 @@ public abstract class Animal {
   public abstract void eat(String foodType);
 
   public abstract void pet(String name);
+
+  public abstract void mood(String mood);
 }
 
 
