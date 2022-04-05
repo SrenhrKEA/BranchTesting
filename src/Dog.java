@@ -12,4 +12,10 @@ public class Dog extends Animal {
   public void pet(String name) {
     System.out.println("pet "+name);
   }
+
+  @Override
+  public void eat(String foodType) {
+    System.out.println("eats "+foodType);
+  }
+
 }

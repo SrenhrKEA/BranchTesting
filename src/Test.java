@@ -8,6 +8,8 @@ public class Test {
     cat.makeSound();
     Dog dog = new Dog("Ludvig");
     dog.makeSound();
+    cat.eat("cat food");
+    dog.eat("dog food");
     cat.pet("Kisser");
     dog.pet("Ludvig");
   }
