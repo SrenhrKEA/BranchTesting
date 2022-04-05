@@ -12,5 +12,7 @@ public class Test {
     dog.eat("dog food");
     cat.pet(cat.getName());
     dog.pet(dog.getName());
+    dog.mood("logrer");
+    cat.mood("spinder");
   }
 }
