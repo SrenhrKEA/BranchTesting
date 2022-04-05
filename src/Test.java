@@ -10,7 +10,7 @@ public class Test {
     dog.makeSound();
     cat.eat("cat food");
     dog.eat("dog food");
-    cat.pet("Kisser");
-    dog.pet("Ludvig");
+    cat.pet(cat.getName());
+    dog.pet(dog.getName());
   }
 }

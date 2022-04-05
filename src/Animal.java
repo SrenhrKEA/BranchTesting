@@ -1,16 +1,19 @@
 public abstract class Animal {
-  private String name;
-  private String foodType;
+  private final String name;
 
   public Animal(String name) {
     this.name = name;
   }
 
-  public abstract void makeSound ();
+  public String getName() {
+    return name;
+  }
+
+  public abstract void makeSound();
 
   public abstract void eat(String foodType);
 
-public abstract void pet(String name);
+  public abstract void pet(String name);
 }
 
 
